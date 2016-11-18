@@ -1,3 +1,5 @@
 *.class
 *.jar
 *.ear
+*.iml
+*.idea/
