@@ -166,8 +166,11 @@ public class Main {
         float course = s.nextInt();
         System.out.println("Введите сумму для перевода:");
         float currency = s.nextInt();
-        float res = course * currency;
-        System.out.println("Сумма перевода составит = " + res);
+        for (int i = 1; i < currency +1 ; i++){
+            float course1 = course * i;
+            System.out.println(i + " Доларов = " + course1 + " грн. ");
+
+        }
     }
 //  10.  Одноклеточная амеба каждые 3 часа делится на 2 клетки.
 //    Определить, сколько клеток будет через 3, 6, 9, ..., 24 часа, если первоначально была одна амеба.
