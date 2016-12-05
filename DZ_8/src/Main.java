@@ -24,8 +24,10 @@ public class Main {
         negativeNumbers(negativeArr);
         naturalNumbers(1255555555);
         mirrorNumber(45634);
-        program(99);
+        program(12);
         ratingStudent(100);
+        int a =0;
+
     }
 
     //    1.    Найти среднее арифметическое элементов массива, больших числа 10.
@@ -182,6 +184,7 @@ public static void program (int lineInNumber ) {
     if(lineInNumber/10 > 1) {
         whole = lineInNumber / 10 * 10;
         rest = lineInNumber%10;
+        System.out.println(rest);
     }
     switch (whole) {
         case 20:
